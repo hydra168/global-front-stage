@@ -1,0 +1,18 @@
+.item.NavbarItem-default {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.NavbarItem-default {
+  .item-title {
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+  }
+  .logo {
+    width: 200px;
+    object-fit: contain;
+  }
+}

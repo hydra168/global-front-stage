@@ -1,0 +1,19 @@
+.lottery-popular.LottoryPopular-024 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.LottoryPopular-024 {
+  .item-container {
+    height: 100%;
+    width: 100%;
+    flex: 0 0 7%;
+    padding: 0px;
+    list-style-type: none;
+    margin: 4px 0px;
+  }
+}

@@ -1,0 +1,35 @@
+// 穿透到子組件的設定
+.item.BottomNavigationItem-002 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  padding: 8px;
+  // 底線
+  &::before {
+    opacity: 0;
+    position: absolute;
+    content: ' ';
+    width: 20px;
+    height: 8px;
+    background-color: burlywood;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  // 讓底線出現
+  &.select-item::before {
+    opacity: 1;
+  }
+}
+.BottomNavigationItem-002 {
+  .item-title {
+    margin-top: 4px;
+  }
+  .select-class::before {
+    width: 100%;
+    height: 8px;
+  }
+}

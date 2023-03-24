@@ -1,0 +1,10 @@
+// 穿透到子組件的設定
+.BottomNavigationItem-001 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  .item-title {
+    margin-top: 4px;
+  }
+}

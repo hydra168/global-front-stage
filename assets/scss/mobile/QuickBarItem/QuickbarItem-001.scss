@@ -1,0 +1,26 @@
+.item.QuickbarItem-001 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.QuickbarItem-001 {
+  .item-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 12px;
+  }
+  .item-img {
+    padding: 25%;
+    width: 80px;
+    object-fit: contain;
+    background-color: #0c2b8c;
+    clip-path: circle(50% at 50% 50%);
+  }
+  .item-icon {
+    display: none;
+  }
+}

@@ -1,0 +1,12 @@
+.quick-bar.Quickbar-005 {
+  justify-content: space-between;
+}
+.Quickbar-005 {
+  .item-container {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,15 @@
+.quick-bar.Quickbar-003 {
+  border-radius: 40px;
+  border: 1px solid grey;
+}
+.Quickbar-003 {
+  .item-container {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item-container + .item-container {
+    border-left: 1px solid grey;
+  }
+}

@@ -1,0 +1,58 @@
+.item.LottoryPopularItem-016 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.LottoryPopularItem-016 {
+  .item-img {
+    margin-top: 100px;
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: relative;
+    order: -1;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+    background-image: linear-gradient(90deg, #84554c, #b88b1e, #84544c);
+  }
+  .item-title::before {
+    counter-increment: pupolarItem;
+    content: '0' counter(pupolarItem);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -100px;
+    left: 0px;
+    color: #d9d6c8;
+    line-height: 100px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .item-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 8px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+    width: 100%;
+    background-color: red;
+  }
+}

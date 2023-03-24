@@ -1,0 +1,29 @@
+.item.QuickbarItem-005 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(#616161 0%, #616161 calc(100% - 12px), #0c2e8c calc(100% - 12px));
+  padding: 12px 0px;
+  border-radius: 10px;
+}
+.QuickbarItem-005 {
+  .item-title {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 8px 0px;
+  }
+  .item-img {
+    display: none;
+    width: 24px;
+    object-fit: contain;
+  }
+  .item-icon {
+    font-size: 36px;
+    width: 24px;
+  }
+}

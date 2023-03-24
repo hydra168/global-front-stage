@@ -1,0 +1,44 @@
+.item.LottoryPopularItem-029 {
+  width: 100%;
+  position: relative;
+}
+.LottoryPopularItem-029 {
+  .item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: absolute;
+    top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+  .item-content {
+    position: absolute;
+    bottom: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+    z-index: 1;
+    width: 100%;
+  }
+}

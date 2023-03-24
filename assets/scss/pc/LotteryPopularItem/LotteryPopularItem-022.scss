@@ -1,0 +1,39 @@
+.item.LottoryPopularItem-022 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20%;
+  margin-top: 8%;
+}
+.LottoryPopularItem-022 {
+  .item-img {
+    height: 20%;
+    object-fit: contain;
+  }
+  .item-title {
+    margin: 5% 0px;
+    height: 50px;
+    font-size: 24px;
+    color: #ffbd00;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+  }
+  .item-content {    
+    position: relative;
+  }
+  .item-content::after {
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    bottom: 0px;
+    left: 0%;
+    padding: 10px 40px;
+    transform: translate(0%, 120%);
+    content: '立即投注';
+    color: black;
+    background-color: #ffbd00;
+  }
+}

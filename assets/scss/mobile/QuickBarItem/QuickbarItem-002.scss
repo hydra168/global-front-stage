@@ -1,0 +1,29 @@
+.item.QuickbarItem-002 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: radial-gradient(circle at 50% 0px, #a99673 0px, #a99673 60%, #a4916d 60%, #a4916d calc(60% + 2px), transparent calc(60% + 2px)),linear-gradient(black, #404040);
+  border-radius: 10px;
+}
+.QuickbarItem-002 {
+  .item-title {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .item-img {
+    margin: 20px;
+    width: 50px;
+    object-fit: contain;
+    filter: drop-shadow(8px 8px 6px  black);
+  }
+  .item-icon {
+    display: none;
+  }
+}

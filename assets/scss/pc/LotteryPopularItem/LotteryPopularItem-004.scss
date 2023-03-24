@@ -1,0 +1,23 @@
+.LottoryPopularItem-004 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+}

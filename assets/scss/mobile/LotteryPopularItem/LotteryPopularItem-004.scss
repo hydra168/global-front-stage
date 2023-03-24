@@ -1,0 +1,22 @@
+.item.LottoryPopularItem-004 {
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  border-bottom: 1px solid #d1d1d1;
+}
+.LottoryPopularItem-004 {
+  .item-img {
+    width: 92%;
+    object-fit: contain;
+  }
+  .item-title {
+    width: 8%;
+    font-size: 1rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    text-align: center;
+  }
+}

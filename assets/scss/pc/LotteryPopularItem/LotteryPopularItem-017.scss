@@ -1,0 +1,33 @@
+.item.LottoryPopularItem-017 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.LottoryPopularItem-017 {
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(0%, 50%);
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+  // .item-content {
+  //   position: absolute;
+  //   bottom: 25%;
+  //   right: 5%;
+  //   width: 30%;
+  //   text-align: center;
+  // }
+}

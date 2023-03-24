@@ -1,0 +1,26 @@
+.item.QuickbarItem-001 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dddddd;
+}
+.QuickbarItem-001 {
+  .item-title {
+    //veutify的CSS： font-weight-black text-subtitle-1
+    width: 50%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    color: #616161;
+  }
+  .item-img {
+    width: 50%;
+    object-fit: contain;
+  }
+  .item-icon {
+    display: none;
+  }
+}

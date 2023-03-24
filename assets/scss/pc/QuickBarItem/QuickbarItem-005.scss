@@ -1,0 +1,31 @@
+.item.QuickbarItem-005 {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: stretch;
+  border: 1px solid #dddddd;
+  background-image: linear-gradient(180deg, black 50px, yellow 50px);
+}
+.QuickbarItem-005 {
+  .item-title {
+    //veutify的CSS： font-weight-black text-subtitle-1
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 900;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 12px 12px 20px 12px;
+  }
+  .item-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .item-icon {
+    display: none;
+  }
+}

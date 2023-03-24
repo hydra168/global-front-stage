@@ -1,0 +1,21 @@
+.item.NavbarItem-007 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.NavbarItem-007 {
+  .item-title {
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+    background-image: linear-gradient(90deg,#4b083f, #f76201);
+    padding: 4px 12px;
+    border-radius: 12px;
+  }
+  .logo {
+    width: 200px;
+    object-fit: contain;
+  }
+}

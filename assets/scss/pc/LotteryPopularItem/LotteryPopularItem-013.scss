@@ -1,0 +1,25 @@
+.item.LottoryPopularItem-013 {
+  position: relative;
+  width: 100%;
+}
+.LottoryPopularItem-013 {
+  .item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    height: 50px;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    transition: height 0.3s;
+  }
+}

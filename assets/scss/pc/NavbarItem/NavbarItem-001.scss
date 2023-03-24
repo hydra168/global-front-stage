@@ -1,0 +1,16 @@
+.item.NavbarItem-001 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavbarItem-001 {
+  .item-title {
+    //veutify的CSS： font-weight-black text-subtitle-1
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+    font-family: "Roboto", sans-serif;
+  }
+}

@@ -1,0 +1,18 @@
+.item.NavbarItem-002 {
+  padding: 16px 8px;
+  display: flex;
+  flex-direction: row;
+}
+.NavbarItem-002 {
+  .item-title {
+    cursor: pointer;
+    color: #525252;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.49px;
+    white-space: nowrap;
+  }
+  .logo {
+    width: 160px;
+  }
+}

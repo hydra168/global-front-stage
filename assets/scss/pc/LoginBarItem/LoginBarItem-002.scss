@@ -1,0 +1,82 @@
+.loginItem.loginItem-002 {
+  .userInfo {
+    color: black;
+    order: -2;
+    margin: 0px 8px;
+    .username {
+      color: black;
+    }
+  }
+  .username {
+    color: black;
+  }
+  .balance-btn {
+    color: black;
+    margin: 0px 8px;
+    padding: 0px;
+    min-width: none;
+  }
+  .deposit-btn {
+    color: black;
+    margin: 0px 8px;
+    padding: 0px;
+    min-width: none;
+  }
+  .withdrawals-btn {
+    color: black;
+    margin: 0px 8px;
+    padding: 0px;
+    min-width: none;
+  }
+  .updateBalance-btn {
+    color: black;
+    margin: 0px 8px;
+    padding: 0px;
+    min-width: none;
+  }
+  .mail-btn {
+    margin: 0px 8px;
+    .v-icon {
+      color: black;
+    }
+  }
+  .logout-btn {
+    background-color: var(--v-secondary-base);
+    color: white;
+    margin: 0px 8px;
+  }
+  .i18n {
+    width: 150px;
+    margin: 0px 8px;
+  }
+}
+.logoutItem.loginItem-002 {
+  .login-info-name {
+    width: 150px;
+    margin: 0px 8px;
+  }
+  .login-info-password {
+    width: 150px;
+    margin: 0px 8px;
+  }
+  .login-info-remember {
+    margin-top: 0px;
+    color: grey;
+    margin: 0px 8px;
+  }
+  .login-btn {
+    padding: 0px 12px;
+    background-color: var(--v-primary-base);
+    color: white;
+    margin: 0px 8px;
+  }
+  .register-btn {
+    background-color: var(--v-secondary-base);
+    color: white;
+    margin: 0px 8px;
+  }
+  .i18n {
+    width: 150px;
+    margin: 0px 8px;
+  }
+}

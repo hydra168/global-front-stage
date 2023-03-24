@@ -1,0 +1,77 @@
+.LottoryPopularItem-006 {
+  width: 100%;
+  // height: 100%;
+  position: relative;
+  .item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: absolute;
+    height: 2rem;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    transition: height 0.3s;
+    font-size: 1rem ;
+    font-weight: normal;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em ;
+  }
+  &:hover > .item-title {
+    height: 100%;
+  }
+}
+
+.LottoryPopularItem-006-2 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    order: -1;
+    height: 2.5rem;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    transition: height 0.3s;
+    font-size: 1.25rem ;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.009375em ;
+  }
+  .item-content {
+    position: absolute;
+    height: 3rem;
+    font-family: "Roboto", sans-serif;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    color: #fff;
+    transition: height 0.3s;
+    font-size: 1rem ;
+    font-weight: normal;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em ;
+  }
+  &:hover > .item-content {
+    height: 100%;
+  }
+}

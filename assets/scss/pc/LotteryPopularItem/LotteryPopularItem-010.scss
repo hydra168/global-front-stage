@@ -1,0 +1,42 @@
+.item.LottoryPopularItem-010 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 4px;
+  padding-bottom: 15%;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.LottoryPopularItem-010 {
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+  .item-content {
+    width: 100%;
+    height: 100px;
+    white-space: pre-wrap;
+    padding: 12px;
+  }
+  &::after {
+    content: '立即投注';
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid white;
+    padding: 12px 24px;
+  }
+}

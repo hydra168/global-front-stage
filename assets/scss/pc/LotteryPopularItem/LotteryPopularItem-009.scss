@@ -1,0 +1,77 @@
+.item.LottoryPopularItem-009 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.LottoryPopularItem-009 {
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+  .item-content {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    bottom: 0%;
+    background-color: rgba(black, 0.5);
+    transition: 0.3s;
+  }
+  &:hover .item-content {
+    height: 100%;
+  }
+  &:hover .item-content::after {
+    opacity: 1;
+  }
+  .item-content::after {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: '立即投注';
+    position: absolute;
+    border: 1px solid white;
+    padding: 12px 24px;
+  }
+}
+.item.LottoryPopularItem-009-1 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.LottoryPopularItem-009-1 {
+  .item-img {
+    width: 100%;
+    object-fit: contain;
+  }
+  .item-title {
+    position: absolute;
+    bottom: 2%;
+    right: 15%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    letter-spacing: 0.009375em;
+  }
+  .item-content {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.item.NavbarItem-008 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.NavbarItem-008 {
+  .item-title {
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+    margin-top: 8px;
+  }
+}

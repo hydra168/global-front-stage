@@ -1,0 +1,20 @@
+.RightToolbar-003 {
+  .right-tool-bar {
+    justify-content: space-between;    
+  }
+  .item-container {
+    width: 100%;
+  }
+}
+.RightToolbar-003.left-side-modal ::v-deep {
+  .item-content {
+    right: -12px;
+    transform: translate(100%, 0%);
+  }
+}
+.RightToolbar-003.right-side-modal ::v-deep {
+  .item-content {
+    left: -12px;
+    transform: translate(-100%, 0%);
+  }
+}
